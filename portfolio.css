@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(
+      110deg,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+  
+  .content {
+    width: 50vw;
+    height: 112vh;
+    display: flex;
+    flex-direction: column;
+   
+  }
+ 
+  
+  nav {
+    flex: 1;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 3% 18%;
+  }
+  
+  .nav-links li {
+    list-style-type: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -1px;
+    left: 50%;
+    background: white;
+    transition: 0.2s ease;
+    overflow: hidden;
+  }
+  
+  .nav-links a:hover::after {
+    left: 0%;
+    width: 100%;
+  }
+  
+  .description {
+    flex: 1;
+    color: white;
+    margin: 0 0 120px 18%;
+  }
+  
+  .name h1 {
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  .skills h2 {
+    font-weight: 200;
+  }
+  
+ 
+
+  *{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ 
+
+.profile-picture{
+    margin-bottom: 25px;
+    width: 50%;
+    margin-left: 85px;
+    width: 70%;
+}
+.intro-text{
+    margin: 0px 30px;
+}
+.main{
+    margin-top: 60px;
+    text-align: center;
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.container img{
+    width: 100%;
+   
+}
+h3{
+    margin-top: 30px;
+}
+figure{
+    margin: 0px 14px;
+}
+figcaption{
+    padding-bottom: 30px;
+    margin: 0 10px;
+}
+.section-contact{
+    text-align: center;
+}
+h2{
+    padding-top: 80px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.section-contact p{
+    margin-right: 40px;
+    padding-left: 40px;
+}
+.info{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+ 
+.info a{
+  text-decoration: none;
+  color: rgb(245, 238, 238);
+}
+
+
+
+
+    .intro-text{
+        width: 45%;
+        float: left;
+        margin-top: 50px;
+        font-size: 1.4em;
+        text-align: left;
+        padding-left: 10px;
+        
+    }
+     .profile-picture{
+        width: 50%;
+    }
+    figure{
+        width: 50%;
+        float: left;
+        margin: 16px 0;
+        padding: 0 7px;
+      
+    }
+  
+    .container{
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    }
+
+    .banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+ 
+    .main{
+        background-color: aliceblue;
+        width: 80%;
+        margin: 0 auto;
+    }
+    figure{
+        width: 33.33%;
+      
+    }
+    .container{
+         width: 100%; 
+         margin-left: 20px;
+         padding-right: 40px;
+       
+    }
+  
+ 
+    h2{
+        padding-top: 30px;
+    }
+    
+    .section-contact{
+        background: #0a0a0a;
+        width:80%;
+        margin: 0 auto;
+        
+    }
+    .section-socials{
+        text-align: center;
+        color: aliceblue;
+        width: 80%;
+        margin: 0 auto;
+        background: #0c0c0c;
+       
+    }
+    .social-header{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .contact-links{
+        margin-bottom: 45px;
+        color: aliceblue;
+        
+    }
+    .contact-details{
+        text-decoration: none;
+        color: aliceblue;
+        width: 80%;
+        
+        padding: 0px 20px;
+        font-size: 1.2em;
+        color: rgb(243, 237, 237);
+        
+    }
+    
